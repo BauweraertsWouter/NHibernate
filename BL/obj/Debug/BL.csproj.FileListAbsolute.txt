@@ -1,0 +1,13 @@
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.BL.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.BL.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.BL.Domain.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.DAL.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\EntityFramework.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.DAL.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.BL.Domain.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\EntityFramework.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\SC.BL.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\SC.BL.pdb
