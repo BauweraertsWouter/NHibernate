@@ -34,3 +34,17 @@
 2017/02/14-22:56:48.703 2b24 Delete type=2 #29
 2017/02/14-22:56:48.705 2b24 Delete type=2 #48
 2017/02/14-22:56:48.706 2b24 compacted to: files[ 0 3 13 0 0 0 0 ]
+2017/02/14-23:18:45.806 2b24 Expanding@1 1+2 to 3+2
+2017/02/14-23:18:45.806 2b24 Compacting 3@1 + 2@2 files
+2017/02/14-23:18:45.919 2b24 Generated table #59: 2980 keys, 2189381 bytes
+2017/02/14-23:18:46.031 2b24 Generated table #60: 2661 keys, 2183835 bytes
+2017/02/14-23:18:46.129 2b24 Generated table #61: 2780 keys, 2183111 bytes
+2017/02/14-23:18:46.206 2b24 Generated table #62: 339 keys, 2644628 bytes
+2017/02/14-23:18:46.240 2b24 Generated table #63: 122 keys, 82824 bytes
+2017/02/14-23:18:46.240 2b24 Compacted 3@1 + 2@2 files => 9283779 bytes
+2017/02/14-23:18:46.253 2b24 Delete type=2 #36
+2017/02/14-23:18:46.253 2b24 Delete type=2 #49
+2017/02/14-23:18:46.254 2b24 Delete type=2 #50
+2017/02/14-23:18:46.254 2b24 Delete type=2 #51
+2017/02/14-23:18:46.255 2b24 Delete type=2 #53
+2017/02/14-23:18:46.255 2b24 compacted to: files[ 0 0 16 0 0 0 0 ]

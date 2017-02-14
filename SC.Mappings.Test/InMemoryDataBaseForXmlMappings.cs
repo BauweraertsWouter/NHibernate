@@ -22,7 +22,8 @@ namespace SC.Mappings.Test
                 .SetProperty(NHibernate.Cfg.Environment.Dialect, typeof(SQLiteDialect).AssemblyQualifiedName)
                 .SetProperty(NHibernate.Cfg.Environment.ConnectionDriver, typeof(SQLite20Driver).AssemblyQualifiedName)
                 .SetProperty(NHibernate.Cfg.Environment.ConnectionString, "data source=:memory:")
-                .AddAssembly("DAL");
+                .AddAssembly("SC.BL.Domain")
+                .AddAssembly("SC.DAL");
 
             sessionFactory = config.BuildSessionFactory();
 
