@@ -55,7 +55,7 @@
     <Compile Include="EF\TicketRepository.cs" />
     <Compile Include="ITicketRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TicketRepositoryHC.cs" />
+    <Compile Include="HC\TicketRepositoryHC.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
