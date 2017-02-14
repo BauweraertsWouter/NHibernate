@@ -34,7 +34,7 @@ namespace SC.Mappings.Test
                     DateOpened = DateTime.Today,
                     State = TicketState.Open,
                     Text = "Test for mapping",
-                    TicketNumber = 1
+                    Responses = new List<TicketResponse>()
                 });
                 transaction.Commit();
             }
@@ -45,7 +45,6 @@ namespace SC.Mappings.Test
             {
                 var ticket = session.Get<Ticket>(id);
 
-                Assert.That(ticket.TicketNumber, Is.EqualTo(1));
                 Assert.That(ticket.AccountId, Is.EqualTo(1));
                 Assert.That(ticket.DateOpened, Is.EqualTo(DateTime.Today));
                 Assert.That(ticket.State, Is.EqualTo(TicketState.Open));

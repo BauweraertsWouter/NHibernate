@@ -8,14 +8,14 @@ namespace SC.BL.Domain
 {
   public class TicketResponse : IValidatableObject
   {
-    public int Id { get; set; }
+    public virtual int Id { get; set; }
     [Required]
-    public string Text { get; set; }
-    public DateTime Date { get; set; }
-    public bool IsClientResponse { get; set; }
+    public virtual string Text { get; set; }
+    public virtual DateTime Date { get; set; }
+    public virtual bool IsClientResponse { get; set; }
 
     [Required]
-    public Ticket Ticket { get; set; }
+    public virtual Ticket Ticket { get; set; }
 
     IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
     {

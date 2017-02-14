@@ -7,6 +7,7 @@ using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Dialect;
 using NHibernate.Driver;
+using NHibernate.Tool.hbm2ddl;
 
 namespace SC.Mappings.Test
 {
@@ -21,13 +22,14 @@ namespace SC.Mappings.Test
                 .SetProperty(NHibernate.Cfg.Environment.ReleaseConnections, "on_close")
                 .SetProperty(NHibernate.Cfg.Environment.Dialect, typeof(SQLiteDialect).AssemblyQualifiedName)
                 .SetProperty(NHibernate.Cfg.Environment.ConnectionDriver, typeof(SQLite20Driver).AssemblyQualifiedName)
-                .SetProperty(NHibernate.Cfg.Environment.ConnectionString, "data source=:memory:")
+                .SetProperty(NHibernate.Cfg.Environment.ConnectionString, "data source =:memory:")
                 .AddAssembly("SC.BL.Domain")
                 .AddAssembly("SC.DAL");
 
             sessionFactory = config.BuildSessionFactory();
 
             Session = sessionFactory.OpenSession();
+            new SchemaExport(config).Execute(true, true, false, Session.Connection, Console.Out);
         }
 
         public ISession Session { get; set; }

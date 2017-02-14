@@ -1,5 +1,4 @@
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\bin\Debug\SC.BL.Domain.dll
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\bin\Debug\SC.BL.Domain.pdb
-E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\obj\Debug\SC.BL.Domain.dll
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\obj\Debug\SC.BL.Domain.pdb
