@@ -1,64 +1,11 @@
-2017/02/14-22:37:33.111 274c Delete type=3 #1
-2017/02/14-22:37:40.934 5dcc Level-0 table #5: started
-2017/02/14-22:37:41.164 5dcc Level-0 table #5: 4029622 bytes OK
-2017/02/14-22:37:41.189 5dcc Delete type=0 #3
-2017/02/14-22:37:41.299 5dcc Level-0 table #7: started
-2017/02/14-22:37:41.429 5dcc Level-0 table #7: 3818436 bytes OK
-2017/02/14-22:37:41.444 5dcc Delete type=0 #4
-2017/02/14-22:37:41.556 5dcc Level-0 table #9: started
-2017/02/14-22:37:41.719 5dcc Level-0 table #9: 4421599 bytes OK
-2017/02/14-22:37:41.753 5dcc Delete type=0 #6
-2017/02/14-22:37:41.856 5dcc Level-0 table #11: started
-2017/02/14-22:37:41.997 5dcc Level-0 table #11: 4251674 bytes OK
-2017/02/14-22:37:42.022 5dcc Delete type=0 #8
-2017/02/14-22:37:42.149 5dcc Level-0 table #13: started
-2017/02/14-22:37:42.290 5dcc Level-0 table #13: 4343413 bytes OK
-2017/02/14-22:37:42.311 5dcc Delete type=0 #10
-2017/02/14-22:37:44.564 5dcc Level-0 table #15: started
-2017/02/14-22:37:44.722 5dcc Level-0 table #15: 5098900 bytes OK
-2017/02/14-22:37:44.744 5dcc Delete type=0 #12
-2017/02/14-22:37:44.744 5dcc Compacting 4@0 + 1@1 files
-2017/02/14-22:37:44.833 5dcc Generated table #16: 4909 keys, 2161127 bytes
-2017/02/14-22:37:44.891 5dcc Generated table #17: 4624 keys, 2167415 bytes
-2017/02/14-22:37:44.956 5dcc Generated table #18: 4158 keys, 2166496 bytes
-2017/02/14-22:37:45.024 5dcc Generated table #19: 2480 keys, 2178303 bytes
-2017/02/14-22:37:45.090 5dcc Generated table #20: 2891 keys, 2168119 bytes
-2017/02/14-22:37:45.169 5dcc Generated table #21: 2257 keys, 2192620 bytes
-2017/02/14-22:37:45.222 5dcc Generated table #22: 3494 keys, 2166820 bytes
-2017/02/14-22:37:45.311 5dcc Generated table #23: 2453 keys, 2170791 bytes
-2017/02/14-22:37:45.389 5dcc Generated table #24: 2914 keys, 2531287 bytes
-2017/02/14-22:37:45.445 5dcc Generated table #25: 104 keys, 2006910 bytes
-2017/02/14-22:37:45.445 5dcc Compacted 4@0 + 1@1 files => 21909888 bytes
-2017/02/14-22:37:45.467 5dcc Delete type=2 #7
-2017/02/14-22:37:45.467 5dcc Delete type=2 #9
-2017/02/14-22:37:45.468 5dcc Delete type=2 #11
-2017/02/14-22:37:45.469 5dcc Delete type=2 #13
-2017/02/14-22:37:45.469 5dcc Delete type=2 #15
-2017/02/14-22:37:45.470 5dcc compacted to: files[ 0 10 1 0 0 0 0 ]
-2017/02/14-22:37:45.470 5dcc Expanding@1 1+1 to 10+1
-2017/02/14-22:37:45.470 5dcc Compacting 10@1 + 1@2 files
-2017/02/14-22:37:45.533 5dcc Generated table #26: 5046 keys, 2169102 bytes
-2017/02/14-22:37:45.613 5dcc Generated table #27: 4776 keys, 2161912 bytes
-2017/02/14-22:37:45.679 5dcc Generated table #28: 4665 keys, 2169638 bytes
-2017/02/14-22:37:45.755 5dcc Generated table #29: 4096 keys, 2160694 bytes
-2017/02/14-22:37:45.845 5dcc Generated table #30: 3607 keys, 2170412 bytes
-2017/02/14-22:37:45.907 5dcc Generated table #31: 2522 keys, 2175922 bytes
-2017/02/14-22:37:45.979 5dcc Generated table #32: 2891 keys, 2166081 bytes
-2017/02/14-22:37:46.044 5dcc Generated table #33: 2270 keys, 2194056 bytes
-2017/02/14-22:37:46.111 5dcc Generated table #34: 3493 keys, 2160283 bytes
-2017/02/14-22:37:46.178 5dcc Generated table #35: 2413 keys, 2177919 bytes
-2017/02/14-22:37:46.245 5dcc Generated table #36: 2327 keys, 2215489 bytes
-2017/02/14-22:37:46.299 5dcc Generated table #37: 105 keys, 2006929 bytes
-2017/02/14-22:37:46.299 5dcc Compacted 10@1 + 1@2 files => 25928437 bytes
-2017/02/14-22:37:46.310 5dcc Delete type=2 #5
-2017/02/14-22:37:46.311 5dcc Delete type=2 #16
-2017/02/14-22:37:46.312 5dcc Delete type=2 #17
-2017/02/14-22:37:46.312 5dcc Delete type=2 #18
-2017/02/14-22:37:46.312 5dcc Delete type=2 #19
-2017/02/14-22:37:46.313 5dcc Delete type=2 #20
-2017/02/14-22:37:46.313 5dcc Delete type=2 #21
-2017/02/14-22:37:46.313 5dcc Delete type=2 #22
-2017/02/14-22:37:46.314 5dcc Delete type=2 #23
-2017/02/14-22:37:46.314 5dcc Delete type=2 #24
-2017/02/14-22:37:46.315 5dcc Delete type=2 #25
-2017/02/14-22:37:46.315 5dcc compacted to: files[ 0 0 12 0 0 0 0 ]
+2017/02/14-22:44:44.220 f98 Recovering log #14
+2017/02/14-22:44:44.220 f98 Level-0 table #39: started
+2017/02/14-22:44:44.271 f98 Level-0 table #39: 13940 bytes OK
+2017/02/14-22:44:44.339 f98 Delete type=0 #14
+2017/02/14-22:44:44.339 f98 Delete type=3 #2
+2017/02/14-22:49:03.670 2b24 Level-0 table #42: started
+2017/02/14-22:49:03.782 2b24 Level-0 table #42: 4334083 bytes OK
+2017/02/14-22:49:03.792 2b24 Delete type=0 #40
+2017/02/14-22:49:04.359 2b24 Level-0 table #44: started
+2017/02/14-22:49:04.471 2b24 Level-0 table #44: 4091939 bytes OK
+2017/02/14-22:49:04.481 2b24 Delete type=0 #41

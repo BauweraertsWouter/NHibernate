@@ -1,1 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Domain" namespace="SC.BL.Domain">
+  <class name="Ticket" table="Tickets" discriminator-value="T">
+    <id name="TicketNumber" column="ticketNbr"><generator class="hilo"/></id>
+    <discriminator column="subclass" type="Char"/>
+    <property name="AccountId"/>
+    <property name="Text"/>
+    <property name="DateOpened"/>
+    <property name="State"/>
+    <set name="Responses">
+      <key  foreign-key ="ticketNbr"/>
+      <one-to-many class="TicketResponse"/>
+    </set>
+  </class>
+</hibernate-mapping>
