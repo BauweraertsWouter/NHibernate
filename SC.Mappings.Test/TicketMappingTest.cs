@@ -26,6 +26,9 @@ namespace SC.Mappings.Test
         public void MapsPrimitivePropertiesForTicket()
         {
             object id = 0;
+            object ifTr;
+            TicketResponse tr;
+
             using (var transaction = session.BeginTransaction())
             {
                 id = session.Save(new Ticket
