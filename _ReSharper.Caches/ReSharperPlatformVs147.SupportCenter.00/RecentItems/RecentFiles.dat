@@ -1,10 +1,34 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:Ticket.cs" caret="211" fromTop="9" />
     <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:HardwareTicket.cs" caret="232" fromTop="9" />
-    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="42" fromTop="1" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/f:ITicketRepository.cs" caret="0" fromTop="0" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="0" fromTop="0" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:Ticket.cs" caret="725" fromTop="21" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:TicketResponse.cs" caret="465" fromTop="17" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:App.config" caret="0" fromTop="0" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:TicketResponse.hbm.xml" caret="410" fromTop="7" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="278" fromTop="13" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:InMemoryDataBaseForXmlMappings.cs" caret="1115" fromTop="18" />
   </RecentFiles>
   <RecentEdits>
-    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="42" fromTop="1" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="578" fromTop="11" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="1715" fromTop="16" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:InMemoryDataBaseForXmlMappings.cs" caret="1" fromTop="0" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:InMemoryDataBaseForXmlMappings.cs" caret="342" fromTop="12" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:InMemoryDataBaseForXmlMappings.cs" caret="1444" fromTop="36" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="111" fromTop="1" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:TicketResponse.hbm.xml" caret="410" fromTop="7" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:Ticket.cs" caret="355" fromTop="13" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:Ticket.cs" caret="542" fromTop="17" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:Ticket.cs" caret="725" fromTop="21" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:TicketResponse.cs" caret="240" fromTop="10" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:TicketResponse.cs" caret="465" fromTop="17" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:InMemoryDataBaseForXmlMappings.cs" caret="955" fromTop="14" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="1344" fromTop="22" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="1157" fromTop="23" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="710" fromTop="12" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="1635" fromTop="29" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="1157" fromTop="11" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:InMemoryDataBaseForXmlMappings.cs" caret="1267" fromTop="31" />
   </RecentEdits>
 </RecentFiles>
