@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="SC.BL.Domain" namespace="SC.BL.Domain">
+  <class name="TicketResponse" table="ticketResponse">
+    <id name="Id" column="trId"><generator class="hilo"/></id>
+    <property name="Text"/>
+    <property name="Date"/>
+    <property name="IsClientResponse"/>
+    <many-to-one name="Ticket" class="Ticket"/>
+  </class>
+</hibernate-mapping>
