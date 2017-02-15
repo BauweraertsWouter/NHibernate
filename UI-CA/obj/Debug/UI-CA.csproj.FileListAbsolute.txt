@@ -14,3 +14,6 @@ E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\obj\Debug\UI-CA.csprojResolveAssemblyReference.cache
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\obj\Debug\SC.UI.CA.exe
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\obj\Debug\SC.UI.CA.pdb
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\UI-CA\bin\Debug\SC.UI.CA.exe.config
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\UI-CA\obj\Debug\SC.UI.CA.exe
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\UI-CA\obj\Debug\SC.UI.CA.pdb
