@@ -71,6 +71,7 @@
     <Compile Include="NHibernate\Mappings\Code\TicketResponseCodeMap.cs" />
     <Compile Include="NHibernate\Mappings\Fluent\TicketFluentMap.cs" />
     <Compile Include="NHibernate\Mappings\Fluent\TicketResponseFluentMap.cs" />
+    <Compile Include="NHibernate\NH_TicketRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="HC\TicketRepositoryHC.cs" />
   </ItemGroup>

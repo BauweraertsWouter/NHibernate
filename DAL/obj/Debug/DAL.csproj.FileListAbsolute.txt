@@ -14,3 +14,6 @@ E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\DAL\bin\Debug\Ie
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\DAL\bin\Debug\NHibernate.dll
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\DAL\bin\Debug\Iesi.Collections.xml
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\DAL\bin\Debug\NHibernate.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\DAL\bin\Debug\FluentNHibernate.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\DAL\bin\Debug\FluentNHibernate.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\DAL\bin\Debug\FluentNHibernate.xml

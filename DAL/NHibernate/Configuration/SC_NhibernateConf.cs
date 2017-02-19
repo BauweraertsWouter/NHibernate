@@ -15,11 +15,11 @@ namespace SC.DAL.NHibernate.Configuration
 {
     public class SC_NhibernateConf
     {
-        public ISession Session { get;}
+        public ISession Session { get; private set; }
         public SC_NhibernateConf()
         {
             var fluentConfig = Fluently.Configure()
-                .Database(MsSqlConfiguration.MsSql2012.ConnectionString(c => c.FromAppSetting("SC_NHibernate"))
+                .Database(MsSqlConfiguration.MsSql2012.ConnectionString(c => c.FromConnectionStringWithKey("SC_NHibernate"))
                     .Dialect(typeof(MsSql2012Dialect).AssemblyQualifiedName)
                     .Driver(typeof(SqlClientDriver).AssemblyQualifiedName))
                 .Mappings(mapper =>
@@ -34,12 +34,7 @@ namespace SC.DAL.NHibernate.Configuration
 
             using (var tx = Session.BeginTransaction())
             {
-                new SchemaExport(nhConfiguration).Execute(
-                    useStdOut:true,
-                    execute:true,
-                    justDrop:false,
-                    connection:Session.Connection,
-                    exportOutput:Console.Out);
+                new SchemaExport(nhConfiguration).Create(true, true);
                 tx.Commit();
             }
         }

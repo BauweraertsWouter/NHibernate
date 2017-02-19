@@ -11,3 +11,11 @@ E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\Ent
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\SC.BL.dll
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\SC.BL.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.BL.dll.config
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\NHibernate.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\FluentNHibernate.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\Iesi.Collections.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\NHibernate.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\FluentNHibernate.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\FluentNHibernate.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\Iesi.Collections.xml

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 using SC.DAL;
 using SC.BL.Domain;
+using SC.DAL.NHibernate;
 
 namespace SC.BL
 {
@@ -17,7 +18,8 @@ namespace SC.BL
     public TicketManager()
     {
       //repo = new TicketRepositoryHC();
-      repo = new SC.DAL.EF.TicketRepository();
+      //repo = new SC.DAL.EF.TicketRepository();    //Used with EF
+      repo = new NH_TicketRepository();
     }
 
     public IEnumerable<Ticket> GetTickets()

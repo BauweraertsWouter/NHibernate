@@ -14,3 +14,10 @@ E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\obj\Debug\UI-CA.csprojResolveAssemblyReference.cache
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\obj\Debug\SC.UI.CA.exe
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\obj\Debug\SC.UI.CA.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\NHibernate.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\FluentNHibernate.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\Iesi.Collections.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\NHibernate.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\FluentNHibernate.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\FluentNHibernate.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\UI-CA\bin\Debug\Iesi.Collections.xml
