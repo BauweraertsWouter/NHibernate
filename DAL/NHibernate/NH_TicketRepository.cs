@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NHibernate;
 using NHibernate.Linq;
 using SC.BL.Domain;
@@ -10,7 +8,7 @@ using SC.DAL.NHibernate.Configuration;
 
 namespace SC.DAL.NHibernate
 {
-    public class NH_TicketRepository : ITicketRepository
+    public class NhTicketRepository : ITicketRepository
     {
         private ISession session = new SC_NhibernateConf().Session;
         public IEnumerable<Ticket> ReadTickets()
@@ -35,7 +33,7 @@ namespace SC.DAL.NHibernate
         {
             using (var tx = session.BeginTransaction())
             {
-                object id = 0;
+                object id;
                 try
                 {
                     id = session.Save(ticket);
@@ -122,12 +120,40 @@ namespace SC.DAL.NHibernate
 
         public IEnumerable<TicketResponse> ReadTicketResponsesOfTicket(int ticketNumber)
         {
-            throw new NotImplementedException();
+            using (var tx = session.BeginTransaction())
+            {
+                try
+                {
+                    IEnumerable<TicketResponse> responses =
+                        session.Query<TicketResponse>().Where(tr => tr.Ticket.TicketNumber == ticketNumber);
+                    tx.Commit();
+                    return responses;
+                }
+                catch (Exception)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
+            
         }
 
         public TicketResponse CreateTicketResponse(TicketResponse response)
         {
-            throw new NotImplementedException();
+            using (var tx = session.BeginTransaction())
+            {
+                try
+                {
+                    session.Save(response);
+                    tx.Commit();
+                    return response;
+                }
+                catch (Exception )
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
         }
     }
 }
