@@ -34,7 +34,7 @@ namespace SC.DAL.NHibernate.Configuration
 
             using (var tx = Session.BeginTransaction())
             {
-                new SchemaExport(nhConfiguration).Create(true, true);
+                new SchemaUpdate(nhConfiguration).Execute(Console.WriteLine, true);
                 tx.Commit();
             }
         }

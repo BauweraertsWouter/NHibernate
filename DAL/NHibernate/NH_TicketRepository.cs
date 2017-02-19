@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NHibernate;
+using NHibernate.Linq;
 using SC.BL.Domain;
 using SC.DAL.NHibernate.Configuration;
 
@@ -14,7 +15,10 @@ namespace SC.DAL.NHibernate
         private ISession session = new SC_NhibernateConf().Session;
         public IEnumerable<Ticket> ReadTickets()
         {
-            throw new NotImplementedException();
+            using (var tx = session.BeginTransaction())
+            {
+                return session.Query<Ticket>();
+            }
         }
 
         public Ticket CreateTicket(Ticket ticket)
@@ -38,12 +42,37 @@ namespace SC.DAL.NHibernate
 
         public Ticket ReadTicket(int ticketNumber)
         {
-            throw new NotImplementedException();
+            using (var tx = session.BeginTransaction())
+            {
+                try
+                {
+                    Ticket t = session.Get<Ticket>(ticketNumber);
+                    tx.Commit();
+                    return t;
+                }
+                catch (Exception e)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
         }
 
         public void UpdateTicket(Ticket ticket)
         {
-            throw new NotImplementedException();
+            using (var tx = session.BeginTransaction())
+            {
+                try
+                {
+                    session.Update(ticket);
+                    tx.Commit();
+                }
+                catch (Exception)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
         }
 
         public void UpdateTicketStateToClosed(int ticketNumber)
