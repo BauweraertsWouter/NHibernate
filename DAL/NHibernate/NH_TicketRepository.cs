@@ -17,7 +17,17 @@ namespace SC.DAL.NHibernate
         {
             using (var tx = session.BeginTransaction())
             {
-                return session.Query<Ticket>();
+                try
+                {
+                    IEnumerable<Ticket> tickets = session.Query<Ticket>();
+                    tx.Commit();
+                    return tickets;
+                }
+                catch (Exception)
+                {
+                    tx.Rollback();
+                    throw;
+                }
             }
         }
 
@@ -32,7 +42,7 @@ namespace SC.DAL.NHibernate
                     tx.Commit();
                     return session.Get<Ticket>(id);
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     tx.Rollback();
                     throw;
@@ -50,7 +60,7 @@ namespace SC.DAL.NHibernate
                     tx.Commit();
                     return t;
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     tx.Rollback();
                     throw;
@@ -77,12 +87,37 @@ namespace SC.DAL.NHibernate
 
         public void UpdateTicketStateToClosed(int ticketNumber)
         {
-            throw new NotImplementedException();
+            using (var tx = session.BeginTransaction())
+            {
+                try
+                {
+                    Ticket t = session.Get<Ticket>(ticketNumber);
+                    t.State = TicketState.Closed;
+                    tx.Commit();
+                }
+                catch (Exception)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
         }
 
         public void DeleteTicket(int ticketNumber)
         {
-            throw new NotImplementedException();
+            using (var tx = session.BeginTransaction())
+            {
+                try
+                {
+                    session.Delete(session.Get<Ticket>(ticketNumber));
+                    tx.Commit();
+                }
+                catch (Exception)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
         }
 
         public IEnumerable<TicketResponse> ReadTicketResponsesOfTicket(int ticketNumber)
