@@ -2,3 +2,8 @@ E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\bin\Debug
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\bin\Debug\SC.BL.Domain.pdb
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\obj\Debug\SC.BL.Domain.dll
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\obj\Debug\SC.BL.Domain.pdb
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\bin\Debug\SC.BL.Domain.dll
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\bin\Debug\SC.BL.Domain.pdb
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\obj\Debug\SC.BL.Domain.dll
+C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\obj\Debug\SC.BL.Domain.pdb
