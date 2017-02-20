@@ -11,6 +11,7 @@ namespace SC.DAL.NHibernate
     public class NhTicketRepository : ITicketRepository
     {
         private ISession session = new SC_NhibernateConf().Session;
+
         public IEnumerable<Ticket> ReadTickets()
         {
             using (var tx = session.BeginTransaction())
