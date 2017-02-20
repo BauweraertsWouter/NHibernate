@@ -42,3 +42,20 @@
 2017/02/19-17:00:25.711 620c Delete type=2 #83
 2017/02/19-17:00:25.712 620c Delete type=2 #84
 2017/02/19-17:00:25.713 620c compacted to: files[ 0 0 19 0 0 0 0 ]
+2017/02/19-19:54:50.340 620c Level-0 table #96: started
+2017/02/19-19:54:50.485 620c Level-0 table #96: 3549987 bytes OK
+2017/02/19-19:54:50.505 620c Delete type=0 #80
+2017/02/19-20:00:20.215 620c Compacting 1@0 + 0@1 files
+2017/02/19-20:00:20.255 620c Generated table #97: 46 keys, 11662 bytes
+2017/02/19-20:00:20.308 620c Generated table #98: 489 keys, 242157 bytes
+2017/02/19-20:00:20.308 620c Compacted 1@0 + 0@1 files => 253819 bytes
+2017/02/19-20:00:20.338 620c Delete type=2 #96
+2017/02/19-20:00:20.339 620c compacted to: files[ 0 2 19 0 0 0 0 ]
+2017/02/19-20:07:32.253 620c Compacting 1@1 + 2@2 files
+2017/02/19-20:07:32.384 620c Generated table #99: 555 keys, 3127783 bytes
+2017/02/19-20:07:32.414 620c Generated table #100: 302 keys, 124745 bytes
+2017/02/19-20:07:32.414 620c Compacted 1@1 + 2@2 files => 3252528 bytes
+2017/02/19-20:07:32.435 620c Delete type=2 #93
+2017/02/19-20:07:32.437 620c Delete type=2 #94
+2017/02/19-20:07:32.438 620c Delete type=2 #98
+2017/02/19-20:07:32.439 620c compacted to: files[ 0 1 19 0 0 0 0 ]
