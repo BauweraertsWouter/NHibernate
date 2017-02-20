@@ -11,16 +11,11 @@ E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\Ent
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\SC.BL.dll
 E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\obj\Debug\SC.BL.pdb
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\SC.BL.dll
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\SC.BL.pdb
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\SC.BL.Domain.dll
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\SC.DAL.dll
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\EntityFramework.dll
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\SC.DAL.pdb
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\SC.BL.Domain.pdb
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\EntityFramework.xml
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\obj\Debug\SC.BL.dll
-C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\BL\obj\Debug\SC.BL.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\SC.BL.dll.config
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\NHibernate.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\FluentNHibernate.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\Iesi.Collections.dll
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\NHibernate.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\FluentNHibernate.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\FluentNHibernate.xml
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\BL\bin\Debug\Iesi.Collections.xml

@@ -37,7 +37,7 @@ namespace SC.UI.CA
       {
         DetectMenuAction();
       }
-      catch (Exception e)
+      catch (Exception)
       {
         Console.WriteLine();
         Console.WriteLine("Er heeft zich een onverwachte fout voorgedaan!");

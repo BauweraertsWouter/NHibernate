@@ -1,10 +1,57 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:Ticket.cs" caret="211" fromTop="9" />
-    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:HardwareTicket.cs" caret="232" fromTop="9" />
-    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="42" fromTop="1" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/f:ITicketRepository.cs" caret="0" fromTop="0" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:App.config" caret="0" fromTop="0" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:TicketResponse.hbm.xml" caret="0" fromTop="0" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Code/f:TicketResponseCodeMap.cs" caret="853" fromTop="26" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="0" fromTop="0" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:InMemoryDataBaseForXmlMappings.cs" caret="1030" fromTop="20" />
+    <File id="3EFBE4E8-6D7C-4152-B9BB-6ED315257200/f:TicketMappingTest.cs" caret="0" fromTop="0" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Code/f:TicketCodeMap.cs" caret="0" fromTop="0" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/f:App.config" caret="0" fromTop="0" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:TicketState.cs" caret="0" fromTop="0" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:TicketResponse.cs" caret="501" fromTop="19" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:Ticket.cs" caret="0" fromTop="0" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:HardwareTicket.cs" caret="300" fromTop="12" />
+    <File id="1F78B89E-BDA9-4842-A438-553991A8095F/f:Program.cs" caret="1154" fromTop="18" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1410" fromTop="19" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:EF/f:TicketRepository.cs" caret="2465" fromTop="23" />
+    <File id="1F78B89E-BDA9-4842-A438-553991A8095F/f:App.config" caret="612" fromTop="7" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Fluent/f:TicketFluentMap.cs" caret="496" fromTop="15" />
+    <File id="EE3E2F39-D78F-4F79-8FDE-5725D8D811E6/f:TicketManager.cs" caret="3286" fromTop="13" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Fluent/f:TicketResponseFluentMap.cs" caret="0" fromTop="0" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="4134" fromTop="17" />
   </RecentFiles>
   <RecentEdits>
-    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Xml/f:Ticket.hbm.xml" caret="42" fromTop="1" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="470" fromTop="11" />
+    <File id="F5B3BA5B-091D-4EB6-9138-E19842D49E43/f:HardwareTicket.cs" caret="300" fromTop="12" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="2243" fromTop="32" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="1780" fromTop="28" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="796" fromTop="28" />
+    <File id="1F78B89E-BDA9-4842-A438-553991A8095F/f:Program.cs" caret="1154" fromTop="18" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="1233" fromTop="18" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="1724" fromTop="18" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="2767" fromTop="25" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="3232" fromTop="26" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1664" fromTop="30" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="544" fromTop="6" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1653" fromTop="26" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1664" fromTop="30" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1253" fromTop="14" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1521" fromTop="15" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="652" fromTop="3" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="958" fromTop="7" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1651" fromTop="23" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Configuration/f:SC_NhibernateConf.cs" caret="1253" fromTop="13" />
+    <File id="1F78B89E-BDA9-4842-A438-553991A8095F/f:App.config" caret="612" fromTop="7" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="3873" fromTop="32" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="4361" fromTop="33" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="4213" fromTop="22" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/d:Mappings/d:Fluent/f:TicketFluentMap.cs" caret="484" fromTop="14" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="68" fromTop="2" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="225" fromTop="10" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="1004" fromTop="16" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="4094" fromTop="15" />
+    <File id="D6186931-E00E-4E35-9740-E1793E870E58/d:NHibernate/f:NH_TicketRepository.cs" caret="4179" fromTop="18" />
   </RecentEdits>
 </RecentFiles>
