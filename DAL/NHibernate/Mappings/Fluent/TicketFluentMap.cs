@@ -7,7 +7,7 @@ namespace SC.DAL.NHibernate.Mappings.Fluent
     {
         public TicketFluentMap()
         {
-            Id(t => t.TicketNumber).GeneratedBy.HiLo("1000");
+            Id(t => t.TicketNumber).GeneratedBy.Identity();
             Map(t => t.AccountId);
             Map(t => t.Text);   
             Map(t => t.DateOpened);
