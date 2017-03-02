@@ -15,16 +15,22 @@ namespace SC.DAL.NHibernate.Configuration
 {
     public class SC_NhibernateConf
     {
-        public ISession Session { get; private set; }
+        private static ISessionFactory _session;
 
-        public SC_NhibernateConf()
+        private static ISessionFactory Session
         {
-            LoadDb();
+            get
+            {
+                if (_session == null)
+                    LoadDb();
+
+                return _session;
+            }
         }
 
-        private void LoadDb()
+        private static void LoadDb()
         {
-            var fluentConfig = Fluently.Configure()
+            _session = Fluently.Configure()
                 .Database(MsSqlConfiguration.MsSql2012.ConnectionString(
                         c => c.FromConnectionStringWithKey("SC_NHibernate"))
                     .Dialect(typeof(MsSql2012Dialect).AssemblyQualifiedName)
@@ -34,15 +40,50 @@ namespace SC.DAL.NHibernate.Configuration
                     mapper.FluentMappings.Add<TicketFluentMap>();
                     mapper.FluentMappings.Add<HardwareTicketFluentMap>();
                     mapper.FluentMappings.Add<TicketResponseFluentMap>();
-                });
-            var nhConfiguration = fluentConfig.BuildConfiguration();
-            var sessionFactory = nhConfiguration.BuildSessionFactory();
-            Session = sessionFactory.OpenSession();
-            using (var tx = Session.BeginTransaction())
-            {
-                new SchemaUpdate(nhConfiguration).Execute(Console.WriteLine, true);
-                tx.Commit();
-            }
+                })
+                .ExposeConfiguration(cfg => new SchemaExport(cfg)
+                    .Create(true, true))
+                .BuildSessionFactory();
         }
+
+        public static ISession OpenSession()
+        {
+            return Session.OpenSession();
+        }
+
     }
+
+
+    //public class SC_NhibernateConf
+    //{
+    //    public ISession Session { get; private set; }
+
+    //    public SC_NhibernateConf()
+    //    {
+    //        LoadDb();
+    //    }
+
+    //    private void LoadDb()
+    //    {
+    //        var fluentConfig = Fluently.Configure()
+    //            .Database(MsSqlConfiguration.MsSql2012.ConnectionString(
+    //                    c => c.FromConnectionStringWithKey("SC_NHibernate"))
+    //                .Dialect(typeof(MsSql2012Dialect).AssemblyQualifiedName)
+    //                .Driver(typeof(SqlClientDriver).AssemblyQualifiedName))
+    //            .Mappings(mapper =>
+    //            {
+    //                mapper.FluentMappings.Add<TicketFluentMap>();
+    //                mapper.FluentMappings.Add<HardwareTicketFluentMap>();
+    //                mapper.FluentMappings.Add<TicketResponseFluentMap>();
+    //            });
+    //        var nhConfiguration = fluentConfig.BuildConfiguration();
+    //        var sessionFactory = nhConfiguration.BuildSessionFactory();
+    //        Session = sessionFactory.OpenSession();
+    //        using (var tx = Session.BeginTransaction())
+    //        {
+    //            new SchemaUpdate(nhConfiguration).Execute(Console.WriteLine, true);
+    //            tx.Commit();
+    //        }
+    //    }
+    //}
 }

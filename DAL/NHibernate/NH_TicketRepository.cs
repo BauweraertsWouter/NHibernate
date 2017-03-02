@@ -10,7 +10,7 @@ namespace SC.DAL.NHibernate
 {
     public class NhTicketRepository : ITicketRepository
     {
-        private ISession session = new SC_NhibernateConf().Session;
+        private ISession session = SC_NhibernateConf.OpenSession();
 
         public IEnumerable<Ticket> ReadTickets()
         {
