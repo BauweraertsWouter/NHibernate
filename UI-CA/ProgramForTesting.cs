@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using System.ComponentModel.DataAnnotations;
-
-using SC.BL;
 using SC.BL.Domain;
 namespace SC.UI.CA
 {
