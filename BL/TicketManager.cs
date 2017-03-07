@@ -19,7 +19,7 @@ namespace SC.BL
     {
       //repo = new TicketRepositoryHC();
       //repo = new SC.DAL.EF.TicketRepository();    //Used with EF
-      repo = new NhTicketRepository();
+      repo = new NhTicketRepository();              //Used with NHibernate
     }
 
     public IEnumerable<Ticket> GetTickets()

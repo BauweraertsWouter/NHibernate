@@ -11,7 +11,7 @@ namespace SC.DAL
   public class TicketRepositoryHC : ITicketRepository
   {
     private List<Ticket> tickets;
-    private List<TicketResponse> responses;
+    private List<TicketResponse> responses; 
 
     public TicketRepositoryHC()
     {
