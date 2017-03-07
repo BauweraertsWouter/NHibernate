@@ -21,7 +21,10 @@
 bld/
 [Bb]in/
 [Oo]bj/
-
+BL/[Bb]in/
+BL/[Oo]bj/
+UI-CA/[Bb]in/
+UI-CA/[Oo]bj/
 # Visual Studio 2015 cache/options directory
 .vs\*
 *.suo
