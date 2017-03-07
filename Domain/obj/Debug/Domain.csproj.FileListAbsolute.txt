@@ -7,3 +7,4 @@ C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioPr
 C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\obj\Debug\SC.BL.Domain.dll
 C:\Users\Sharon\School\2de jaar\.NET - Framework\Onderzoekstopics\VisualStudioProjects\NHibernate\Domain\obj\Debug\SC.BL.Domain.pdb
+E:\KDG_2\dotNET\Onderzoekstopics\NHibernate\Eg_SupportCenter-EF\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
